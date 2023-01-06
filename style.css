@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,500&family=Roboto:wght@300&display=swap');
+
+
+#font{
+  font-family: 'Rowdies', cursive; 
+  font-weight: bold;  
+}
+
+h1{
+  padding-top: 100px;
+  padding-left: 200px;
+  color:white;
+  font-weight: bold;
+}
+
+#domu {
+  background-image: url(src/profil.jpg);
+
+}
+
+body {  
+  margin: 0 auto;
+}
+.moto {
+  margin-top: 30px;
+}
+
+
+
+.footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.table {
+  margin: 50px 50px;
+}
+
+h3 {
+  padding-left: 50px;
+}
+
+#aktuality {
+  width: 90%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px 50px;
+}
+
+.jedna {
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dva {
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tri {
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.okno {
+  width: 250px;
+  height: 150px;
+}
+
+.fotka {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  #aktuality {
+    max-width: 800px;
+  }
+  .okno {
+    visibility: hidden;
+    height: 0px;
+  }
+}
+.odstavec {
+  text-align: center;
+  margin: 20px 30px;
+}
+
+h3 {
+  margin-left: 50px;
+  padding-top: 30px;
+}
+
+
+#about {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+#cenik {
+  margin-bottom: 50px;
+}
+
+#aktuality {
+  margin-bottom: 50px;
+}
+
+#kontakt {
+  margin-bottom: 50px;
+}
+
+.form{
+  margin-left: 350px;
+}
+
+.iframe{
+  margin-left: 0; 
+  width: 100%;
+   height: 0; 
+   position: relative;
+    padding-bottom: 75%;
+}

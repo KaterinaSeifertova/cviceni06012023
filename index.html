@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kateřina Seifertová</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+<script src="https://kit.fontawesome.com/27c0597c8c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<header>
+
+  <nav class="navbar  navbar-expand-sm navbar-dark fixed-top bg-dark">
+     <div class="container-fluid"> 
+      <span class="navbar-brand mb-0 h1">Okna Hrubý</span>               
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarNav"
+       aria-controls="navbarNav"
+       aria-expanded="false"
+       aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>       
+       <div class="collapse  navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav ms-auto">
+           <li class="nav-item"><a class="nav-link" href="#domu">Domů</a></li>
+           <li class="nav-item"><a class="nav-link" href="#about">O nás</a></li>
+           <li class="nav-item"><a class="nav-link" href="#aktuality">Aktuality</a></li>
+           <li class="nav-item"><a class="nav-link" href="#cenik">Ceník</a></li>           
+           <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a>
+           </li>
+         </ul>
+       </div>  
+     </div>    
+   </nav>
+
+  </header>
+
+  <main>
+     <!-------------------HOME-------------------------->
+     <section id="domu">
+
+<div class="moto">
+  <h1>Okna a žaluzie levněji</h1></div>
+  <br><br><br><br><br><br><br>
+
+<!-- Button trigger modal -->
+<div class="text-left p-3">
+<button type="button" class="btn btn-primary btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Cookies
+</button>
+</div>
+<br> 
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <p>Nastavení cookies</p>
+          <p> cookies pomáhají vylepšovat vaši návštěvu na našem webu. Díky nim poznáme vaše preference a snadněji vám zobrazíme to, co hledáte. A maximálně se budeme snažit, abychom vám zobrazili jen takové reklamní nabídky, které pro vás budou relevantní.</p>
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Přijmout vše</button>
+        <button type="button" class="btn btn-primary"><i class="fa-solid fa-sun"> &nbsp Learn more</i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+     </section>
+<hr>
+     <!-------------------O nás-------------------------->
+
+     <h3>O nás</h3>
+     <section id="about">
+
+      <div class="container pt-3 pt-lg-0 py-lg-3 my-lg-3  text-center mt-3 p-3">         
+         
+        <div class="row align-items-center g-4 mb-5"> 
+
+          <div class="col-8">
+                 
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="src/drevo.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Dřevěná okna</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="src/plast.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block ">
+               <h5>Plastová okna</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="src/zaluzie.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <div class="text-black"><h5>Žaluzie</h5></div> 
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>  
+          </div>
+              
+          
+
+        <div class="col-4">       
+         <p>           
+        Lorem, ipsum dolor sit amet <span id="font">consectetur adipisicing elit</span>. Ut, tempora velit. Alias quaerat consequatur iusto? Voluptatum, corrupti, velit labore laboriosam sunt nobis libero cumque nisi ipsum perferendis esse minus autem ipsa atque voluptas quos unde, culpa temporibus. Deserunt, blanditiis. Facere ea suscipit aut exercitationem, laboriosam alias id quos nostrum incidunt iusto? Quas aspernatur ad dolor repellat quos atque pariatur ipsum animi esse facilis vel laudantium dolore consectetur quibusdam accusamus ducimus in iusto veniam, a tempora est harum dolorem! Nihil sequi, aperiam maxime autem ex quia ipsa eos optio impedit velit aliquam quos ab deserunt veniam fuga quibusdam dolore vel nobis.</p>
+       </div> 
+       
+      </div> 
+    </div> 
+     </section>
+     </section>
+
+     <hr>
+
+       <!-------------------Aktuality-------------------------->
+      
+       <h3>Aktuality</h3> 
+       <section id="aktuality">
+        
+
+<div class="jedna">
+  <div class="fotka"><img class="okno" src="src/okno.jpg" alt="okno"></div>
+  <div class="odstavec"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tempore, optio eos officia nisi et perferendis ad necessitatibus ullam, illum nihil eaque. Quidem vero dolor magni mollitia nam. Perferendis, dolores!</p>
+</div></div>
+
+<div class="dva">
+  <div class="fotka"><img class="okno" src="src/okno.jpg" alt="okno"></div>
+  <div class="odstavec"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tempore, optio eos officia nisi et perferendis ad necessitatibus ullam, illum nihil eaque. Quidem vero dolor magni mollitia nam. Perferendis, dolores!</p>
+</div></div>
+
+<div class="tri">
+  <div class="fotka"><img class="okno" src="src/okno.jpg" alt="okno"></div>
+  <div class="odstavec"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tempore, optio eos officia nisi et perferendis ad necessitatibus ullam, illum nihil eaque. Quidem vero dolor magni mollitia nam. Perferendis, dolores!</p>
+</div></div>
+
+       </section>
+
+       <hr>
+
+          <!-------------------Ceník-------------------------->
+          <section id="cenik">
+
+          <h3>Ceník</h3>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Typ oken</th>
+                <th scope="col">Rozměry</th>
+                <th scope="col">Cena</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Plastová okna</td>
+                <td>110x60</td>
+                <td>3500 CZK</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Dřevěná okna</td>
+                <td>110 x 60</td>
+                <td>5500 CZK</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Žaluzie</td>
+                <td>110 x 60</td>
+                <td>2500 CZK</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </section>
+
+   
+ 
+
+  <hr>
+  
+<!-------------------Kontakt-------------------------->
+<h3>Kontakt</h3>
+     <section id="kontakt" class="pt-3">
+      <div class="container-kontakt">      
+         
+          <div class="row pb-5 text-center ">
+
+            <div class="col-12 col-lg-4 d-flex flex-column justify-content-center">
+              <h5 class="">Adresa:</h5>
+              <div class="mb-2">Třída Míru 26, Pardubice</a>
+              </div>
+              <div class="mb-2">Telefon: + 420 777 352 652</div>
+              <div class="mb-2">Email: <a href=""> Oknahruby@gmail.com</a></div>
+          </div>
+
+          <div class="col-12 col-lg-4  d-flex flex-column justify-content-center">
+            <h5 class="">Sociální média:</h5>
+            <div class="mb-2"><a href="#"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+            </div>
+            <div class="mb-2">
+              <i class="fa-brands fa-instagram fa-2x"></i>
+                    
+                </a></div>
+            </div>
+              <div class="col-12 col-lg-4 d-flex flex-column justify-content-center">
+                <div class="iframe"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10432.378008567486!2d15.064361786662397!3d49.17979334538428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1scs!2scz!4v1673004310124!5m2!1scs!2scz" height="300px" width="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="mapa"></iframe></div> </div>
+                            
+              </div>          
+          </div>
+      </div>
+
+      <br>
+      <section class="form">
+      <div class="col-lg-8 mt-5 mt-lg-0">
+        <form
+          action="forms/contact.php"
+          method="post"
+          role="form"
+          class="php-email-form"
+        >
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                id="name"
+                placeholder="Jméno"
+                required
+              />
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">                 
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                id="email"
+                placeholder="*Email"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input
+              type="text"
+              class="form-control"
+              name="subject"
+              id="subject"
+              placeholder="Předmět"
+              required
+            />
+          </div>
+          <div class="form-group mt-3">
+            <textarea
+              class="form-control"
+              name="message"
+              rows="5"
+              placeholder="Message"
+              required
+            ></textarea><!--will be deleted-->
+          </div>
+        </form>
+          <div class="row">
+            <div class="col comment-info">
+                Položky označené <span class="required">*</span> jsou povinné.
+            </div>
+          <div class="text-end mt-3 mb-5">
+            <button class="button" type="submit">
+              Odešli
+            </button>
+          </div>
+        </section>
+  </section>
+
+  <footer>
+    <nav class="navbar  navbar-expand-sm navbar-dark fixed-bottom bg-dark">
+      <div class="container-fluid"> 
+                   
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>       
+        <div class="collapse  navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#domu">Ochrana osobních údajů</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">Kariéra</a></li>
+            <li class="nav-item"><a class="nav-link" href="#aktuality"> Prohlášení o přístupnosti</a></li>
+                    
+            <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a>
+            </li>
+          </ul>
+        </div>  
+      </div>    
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const navLinks = document.querySelectorAll(".nav-item");
+    const menuToggle = document.getElementById("navbarNav");
+    const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false });
+    navLinks.forEach((l) => {
+      l.addEventListener("click", () => {
+        bsCollapse.toggle();
+      });
+    });
+  </script>
+
+<script type="text/javascript">
+  $(window).on('load', function () {
+      $('#exampleModal').modal('show');
+  });
+</script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</main>
+</body>
+</html>
